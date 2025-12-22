@@ -3,8 +3,7 @@
   publish = "public"
 
 [build.environment]
-  HUGO_VERSION = "0.133.0"
-  HUGO_ENV = "production"
+  HUGO_VERSION = "0.125.5"
   HUGO_ENABLEGITINFO = "true"
 
 [context.deploy-preview]
@@ -18,5 +17,3 @@
 
 [context.production.environment]
   HUGO_BASEURL = "https://microcks.io/"
-  HUGO_ENV = "production"
-  HUGO_ENABLEGITINFO = "true"
